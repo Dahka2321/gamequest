@@ -1,0 +1,17 @@
+{
+  "name": "gamequest-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env src/app.js",
+    "start": "node src/app.js",
+    "db:setup": "node src/db/setup.js",
+    "db:seed": "node src/db/seed.js"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "better-sqlite3": "^11.5.0"
+  }
+}
+
